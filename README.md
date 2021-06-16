@@ -20,13 +20,14 @@ This was made specifically for use with markdown:
 | hr             | Print Page Break      |
 | Defintion List | Attribution           |
 | blockquote     | Note                  |
-| Dialogue*      | List                  |
+| Dialogue [1]  | List                  |
 | Parenthetical  | List Blockquote       |
 | Mark, Code     | Highlighted Text      |
-| <address>**    | Address               |
+| \<address> [2]| Address               |
 
-> * First list item is used for dialogue name
-> ** Have to wrap text in address tag as there is no markdown equivalent
+> [1]: First list item is used for dialogue name
+> 
+> [2]: Have to wrap text in address tag as there is no markdown equivalent
 
 ## Further
 
