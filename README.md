@@ -2,9 +2,7 @@
 
 A Stylesheet Replicating Screenplays
 
----
-
-[Demo](screenplay.higby.io) using Nicholl Fellowship script sample
+[Demo](https://screenplay.higby.io/) using Nicholl Fellowship script sample
 
 ## Usage
 
