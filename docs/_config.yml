@@ -19,7 +19,6 @@ collections:
 
 plugins:
   - jekyll-tidy
-  - jekyll-target-blank
 
 exclude:
   - .sass-cache/
