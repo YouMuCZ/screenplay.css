@@ -1,0 +1,33 @@
+# Site
+source: src
+
+timezone: America/Los_Angeles
+
+kramdown:
+  auto_ids: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
+
+plugins:
+  - jekyll-tidy
+  - jekyll-target-blank
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

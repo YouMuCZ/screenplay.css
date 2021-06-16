@@ -119,3 +119,30 @@ mark, code {
     right: 0;
   }
 }
+/* Personal Styles */
+body {
+  background-color: #eee;
+  padding: 2rem 0;
+}
+article {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 hsla(198, 45%, 10%, .12);
+  padding: .5in 0;
+}
+a {
+  color: #000;
+}
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+@media print {
+  body {
+    padding: 0;
+  }
+  article {
+    box-shadow: none;
+    padding: 0;
+  }
+}
